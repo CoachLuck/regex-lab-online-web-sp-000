@@ -17,6 +17,3 @@ end
 def valid_phone_number?(phone)
   return phone.scan(/\d+/).join("").length == 10
 end
-
-inc = "Did you hear about the guy whose whole left side was cut off? He's all right now"
-first_word_capitalized_and_ends_with_punctuation?(inc)
